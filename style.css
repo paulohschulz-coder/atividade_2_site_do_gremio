@@ -76,12 +76,14 @@ footer {
 .barra-sticky{
     position: sticky;
     top: 0px;
-    background-color: yellow;
-    color:#0b0f1a;
+    background: linear-gradient(45deg, #5d4a0e, #e0bf00, #eee092, #e0bf00, #5d4a0e);
+    color: rgb(7, 49, 98);
     padding: 12px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 4px solid rgb(35, 67, 119);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    border-bottom: 4px solid rgb(7, 49, 98);
 }
 
 .posicao{
@@ -140,3 +142,20 @@ footer {
     border: 3px solid rgb(7, 49, 98);
     border-radius: 20px;
 }
+
+.escalacao{
+    
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.boneco{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    
+}
+   
