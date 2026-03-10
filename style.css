@@ -10,8 +10,17 @@ body {
     width: 62px;
 }
 
-#links {
+#links a {
     padding-right: 10px;
+     transition: 0.3s ease;
+     color: aliceblue;
+     text-decoration: none; 
+}
+
+
+.links:hover{
+    transform: scale(1.06) ;
+    
 }
 
 #navbar {
@@ -156,11 +165,12 @@ footer {
     position:fixed;
     bottom: 30px;
     right: 30px;
-    z-index: 999;    
+    z-index: 999;   
+    transition: 1.3 ease; 
 }
 
 .boneco:hover{
-    opacity: 0.5;
+    transform: scale(1.06) ;
 }
 
 
@@ -176,6 +186,35 @@ footer {
     height: auto;
     filter: brightness(50%);
     display: block;
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+    display: flex;
+ flex-wrap: wrap;
+    justify-content: space-around;
+    color:aliceblue;
+    background:#0b0f1a;
+   
+   
+   
+}
+
+
+.titulo{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-around;
+    color:aliceblue;
+    background:#0b0f1a;
+   
 }
 
 
